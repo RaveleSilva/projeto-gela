@@ -1,0 +1,387 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Koulen&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+
+}
+
+header {
+
+    height: 90vh;
+    background-image: url(imagens/header2.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+}
+
+header > nav > a{
+
+    margin: 0.8rem;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid white thin;
+    border-radius: 10px;
+
+}
+
+a:hover {
+
+    text-decoration: underline 2px;
+
+}
+
+#headertext{
+
+    margin-top: 100px;
+    width: 300px;
+
+
+}
+
+#headertext > h1 {
+
+    font-size: 3.5em;
+    margin-bottom: 20px;
+
+}
+
+#headertext > p {
+
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+
+section {
+
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+button {
+
+    padding: 20px 30px 20px 30px;
+    color: rgb(61, 61, 61);
+    background-color: white;
+    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: larger;
+    border: thin;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+    cursor: pointer;
+}
+
+button:hover {
+
+    padding: 19px 29px 19px 29px;
+    background-color: rgb(215, 215, 215);
+}
+
+#oferta {
+
+    background-image: linear-gradient( rgb(255, 106, 52),rgb(252, 252, 87));
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+#textofertas{
+
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+   
+}
+
+#textofertas > h1 {
+
+    font-size: 4.5em;
+    margin-bottom: 20px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+}
+
+#textofertas > p {
+
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: rgb(187, 58, 58);
+}
+
+#imgofertas{
+
+    border: solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.407);
+
+}
+
+#section2 {
+
+    background-image: linear-gradient( rgb(249, 52, 52), red);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#textsec2{
+
+    text-align: center;
+}
+
+#textsec2 > h1 {
+
+    font-size: 40px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+}
+
+#textsec2 > p {
+
+    margin: 10px 0px 20px;
+    font-weight: bolder;
+    color: yellow;
+    letter-spacing: 2px;
+    background-color: orangered;
+}
+
+#textsec2 > button {
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+#imgsec2 > img {
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.396);
+}
+
+#section3 {
+
+    background-image: linear-gradient( blueviolet, rgb(125, 125, 255));
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 100px;
+
+}
+
+
+#textsec3 {
+
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+}
+
+#textsec3 > h1 {
+    font-size: 50px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.56);
+
+}
+
+#section3 > img{
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.378);
+}
+
+
+#textsec3 > button {
+
+    margin-top: 20px;
+}
+
+#section4{
+
+    background-image: linear-gradient(  rgb(249, 52, 52),  rgb(163, 0, 0));
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#section4 > img {
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.42);
+}
+
+#textsec4 {
+
+    margin-left: 150px;
+    width: 300px;
+    margin: 50px;
+}
+
+#textsec4 > p {
+
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: bolder;
+}
+
+#textsec4 > h1 {
+
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+footer {
+
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    padding: 100px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+footer > div {
+
+    padding: 20px;
+}
+
+#contato {
+
+    width: 200px;
+    text-align: center;
+
+}
+
+#contato > h1 {
+
+    margin-bottom: 20px;
+
+}
+
+#contato > a {
+
+    margin-bottom: 20px;
+
+}
+
+#contato > p {
+    
+    margin-top: 10px;
+
+}
+
+#contato > button {
+
+    margin-bottom: 20px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border: solid white thin;
+}
+
+#navegue > h1 {
+
+    margin-bottom: 20px;
+}
+
+#navegue > a {
+
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+#navegue > a:hover {
+
+    text-decoration: underline;
+}
+
+#instituct > h1 {
+
+    margin-bottom: 10px;
+}
+
+#instituct > a {
+
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+#instituct > a:hover {
+
+    text-decoration: underline;
+}
+
+#cadastro {
+
+    text-align: center;
+}
+
+#cadastro > button {
+
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border: solid white thin;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#cadastro > a {
+
+    margin-right: 10px;
+}
+
+#rights {
+
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+#rights > p {
+
+    margin-bottom: 10px;
+}
+
+#p1 {
+
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(230, 230, 230);
+}
+
+
