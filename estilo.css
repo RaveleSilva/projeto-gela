@@ -188,10 +188,11 @@ button:hover {
 
     background-image: linear-gradient( blueviolet, rgb(125, 125, 255));
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 100px;
+    min-width: 350px;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
 
 }
 
@@ -199,8 +200,8 @@ button:hover {
 #textsec3 {
 
     width: 500px;
-    padding: 50px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #textsec3 > h1 {
