@@ -9,6 +9,11 @@
 
 }
 
+body{
+
+    padding: 0px;
+}
+
 header {
 
     background-image: url(imagens/header2.jpg);
