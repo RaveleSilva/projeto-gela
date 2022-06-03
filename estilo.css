@@ -218,7 +218,7 @@ button:hover {
 footer {
     background-color: rgb(31, 31, 31);
     display: flex;
-    padding: 100px;
+    padding: 50px;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
